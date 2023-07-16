@@ -45,7 +45,7 @@
 </head>
 <body>
     <h1 id="title" font face="Times New Roman">Demo for One-shot VC Project</h1>
-    <h3 id="kind" font face="Times New Roman">Scenario I: Both source and target speakers are in the VCTK dataset but not in the trainset.</h3>
+    <h3 id="kind" font face="Times New Roman">Scenario I: both source and target speakers are in the VCTK dataset but not in the trainset.</h3>
     <table>
         <tr>
             <th></th>
@@ -57,23 +57,67 @@
           <td>Female-Male</td>
           <td>
             <audio controls>
-                <source src="source/wang_0050.wav" type="audio/mpeg">
+                <source src="source/u2u_vctk/p225_005.wav" type="audio/mpeg">
             </audio>
             <br>
-            source: wang_0050.wav
+            source: p225_005.wav
           </td>
           <td>
             <audio controls>
-                <source src="source/xue_0048.wav" type="audio/mpeg">
+                <source src="source/u2u_vctk/p226_003.wav" type="audio/mpeg">
             </audio>
             <br>
-            target: xue_0048.wav
+            target: p226_003.wav
           </td>
           <td>
             <audio controls>
-               <source src="source/wang_0050_to_xue_0048.wav" type="audio/mpeg">
+               <source src="source/u2u_vctk/p225_005_p226_003_gen.wav" type="audio/mpeg">
             </audio>
             <br>
-            convert: wang_0050_to_xue_0048.wav
+            convert: p225_005_p226_003_gen.wav
+          </td>
+          <td>Male-Female</td>
+          <td>
+            <audio controls>
+                <source src="source/u2u_vctk/p316_241.wav" type="audio/mpeg">
+            </audio>
+            <br>
+            source: p316_241.wav
+          </td>
+          <td>
+            <audio controls>
+                <source src="source/u2u_vctk/p262_013.wav" type="audio/mpeg">
+            </audio>
+            <br>
+            target: p262_013.wav
+          </td>
+          <td>
+            <audio controls>
+                <source src="source/u2u_vctk/p316_241_p262_013_gen.wav" type="audio/mpeg">
+            </audio>
+            <br>
+            convert: p316_241_p262_013_gen.wav
+          </td>
+          <td>Male-Male</td>
+          <td>
+            <audio controls>
+                <source src="source/u2u_vctk/p245_011.wav" type="audio/mpeg">
+            </audio>
+            <br>
+            source: p245_011.wav
+          </td>
+          <td>
+            <audio controls>
+                <source src="source/u2u_vctk/p227_004.wav" type="audio/mpeg">
+            </audio>
+            <br>
+            target: p227_004.wav
+          </td>
+          <td>
+            <audio controls>
+                <source src="source/u2u_vctk/p245_011_p227_004_gen.wav" type="audio/mpeg">
+            </audio>
+            <br>
+            convert: source/u2u_vctk/p245_011_p227_004_gen.wav
           </td>
 </body>
