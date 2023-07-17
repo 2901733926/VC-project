@@ -157,7 +157,31 @@
             <th>Converted Audio</th>
         </tr> 
         <tr>
-<!--           <td>Female-Male</td> -->
+          <td>Female-Male</td>
+          <td>
+            <audio controls>
+                <source src="source/no_finetune/wang_0045.wav" type="audio/mpeg">
+            </audio>
+            <br>
+            source: wang_0045.wav
+          </td>
+          <td>
+            <audio controls>
+                <source src="source/no_finetune/xue_0048.wav" type="audio/mpeg">
+            </audio>
+            <br>
+            target: xue_0048.wav
+          </td>
+          <td>
+            <audio controls>
+               <source src="source/no_finetune/wang_0045_xue_0048_gen.wav" type="audio/mpeg">
+            </audio>
+            <br>
+            convert: wang_0045_xue_0048_gen
+          </td>
+        </tr>
+        <tr>
+          <td>Male-Female</td>
           <td>
             <audio controls>
                 <source src="source/no_finetune/xue_0048.wav" type="audio/mpeg">
@@ -178,30 +202,6 @@
             </audio>
             <br>
             convert: xue_0048_wang_0045_gen.wav
-          </td>
-        </tr>
-        <tr>
-<!--           <td>Female-Male</td> -->
-          <td>
-            <audio controls>
-                <source src="source/no_finetune/wang_0045.wav" type="audio/mpeg">
-            </audio>
-            <br>
-            source: xue_0048.wav
-          </td>
-          <td>
-            <audio controls>
-                <source src="source/no_finetune/xue_0048.wav" type="audio/mpeg">
-            </audio>
-            <br>
-            target: wang_0045.wav
-          </td>
-          <td>
-            <audio controls>
-               <source src="source/no_finetune/wang_0045_xue_0048_gen.wav" type="audio/mpeg">
-            </audio>
-            <br>
-            convert: wang_0045_xue_0048_gen.wav
           </td>
         </tr>
 </body>
